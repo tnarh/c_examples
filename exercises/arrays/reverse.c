@@ -1,3 +1,5 @@
+// Flips an array
+
 #include <stdio.h>
 
 int main() {
@@ -10,10 +12,10 @@ int main() {
         scanf("%d", &arr[i]);
     }
 
-    int n = arrlen;
+    int n = arrlen; // Uses a seperate variable to go from (arrlen - 1) to (0) instead of (0) to (arrlen - 1)
 
     for (int i = 0; i < arrlen; i++) {
-        n--;
+        n--; // Decreases n by 1
         flippedarr[i] = arr[n];
     }
 
