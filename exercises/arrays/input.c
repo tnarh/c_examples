@@ -1,3 +1,5 @@
+// Saves a 5 length array and prints it out
+
 #include <stdio.h>
 
 int main() {
