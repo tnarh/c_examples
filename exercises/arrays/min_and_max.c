@@ -3,9 +3,9 @@
 #include <stdio.h>
 
 int findMin(int arr[], int len) {
-    int min = arr[0];
+    int min = arr[0]; // Sets "min" to the first number in the array
     for (int i = 1; i < len; i++) {
-        if (min > arr[i]) min = arr[i];
+        if (min > arr[i]) min = arr[i]; // If "min" is bigger than "arr[i]", set "min" to "arr[i]"
     }
     return min;
 }
