@@ -1,3 +1,5 @@
+// Finds the minimum and maximum number
+
 #include <stdio.h>
 
 int findMin(int arr[], int len) {
