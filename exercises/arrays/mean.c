@@ -1,3 +1,5 @@
+// Find the mean number with [Sum of all numbers] / [Number amount]
+
 #include <stdio.h>
 
 double findMean(int arr[], int arrlen) {
