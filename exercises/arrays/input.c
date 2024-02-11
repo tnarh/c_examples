@@ -8,13 +8,13 @@ int main() {
 
     printf("Enter %d numbers: ", arrlen);
     for (int i = 0; i < arrlen; i++) {
-        scanf("%d", &arr[i]);
+        scanf("%d", &arr[i]); // Enter 5 numbers using a loop
     }
 
     printf("\nArray: ");
 
     for (int i = 0; i < arrlen; i++) {
-        printf("%d ", arr[i]);
+        printf("%d ", arr[i]); // Print 5 numbers using a loop
     }
 
     printf("\n");
