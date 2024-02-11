@@ -1,4 +1,4 @@
-// Saves a 5 length array and prints it out
+// Saves a 5 length array and prints it
 
 #include <stdio.h>
 
