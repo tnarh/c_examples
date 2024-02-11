@@ -7,7 +7,7 @@ double findMean(int arr[], int arrlen) {
     for (int i = 0; i < arrlen; i++) {
         sum += arr[i];
     }
-    return (double)sum / arrlen;
+    return (double)sum / arrlen; // Uses (double) to return it as a double instead of a different type
 }
 
 int main() {
@@ -16,7 +16,7 @@ int main() {
 
     printf("Enter 5 numbers: ");
     for (int i = 0; i < arrlen; i++) {
-        scanf("%d", &arr[i]);
+        scanf("%d", &arr[i]); // Enters 5 numbers using a loop
     }
 
     double mean = findMean(arr, arrlen);
